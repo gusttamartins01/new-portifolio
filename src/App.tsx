@@ -20,6 +20,13 @@ function App() {
   const [activeSection, setActiveSection] = useState('inicio');
   const [selectedProject, setSelectedProject] = useState(null);
 
+  // Estados para o formulário de contato
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
   const projects = [
     {
       id: 1,
@@ -27,8 +34,8 @@ function App() {
       description: "Plataforma completa de e-commerce com React e Node.js",
       tech: ["React", "Node.js", "MongoDB", "Stripe"],
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
-      demo: "#",
-      github: "#"
+      demo: "#", // Substitua por um link real
+      github: "#" // Substitua por um link real
     },
     {
       id: 2,
@@ -198,12 +205,30 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
+  // Removido `: string` para compatibilidade com JavaScript. Se for TypeScript, pode recolocar.
+  const scrollToSection = (sectionId) => { 
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
     setIsMenuOpen(false);
+  };
+
+  // Funções para o formulário de contato
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevData => ({
+      ...prevData,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Formulário enviado:', formData);
+    // Aqui você pode adicionar a lógica para enviar o formulário (e.g., para um backend, EmailJS, etc.)
+    alert('Mensagem enviada! Entrarei em contato em breve.');
+    setFormData({ name: '', email: '', message: '' }); // Limpar formulário
   };
 
   return (
@@ -225,6 +250,7 @@ function App() {
                   className={`capitalize transition-all duration-300 hover:text-white ${
                     activeSection === item ? 'text-white' : 'text-gray-400'
                   }`}
+                  aria-label={`Navegar para a seção ${item === 'servicos' ? 'serviços' : item}`}
                 >
                   {item === 'servicos' ? 'serviços' : item}
                 </button>
@@ -235,6 +261,7 @@ function App() {
             <button
               className="md:hidden text-white"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
             >
               {isMenuOpen ? <X /> : <Menu />}
             </button>
@@ -250,6 +277,7 @@ function App() {
                   key={item}
                   onClick={() => scrollToSection(item)}
                   className="block px-3 py-2 text-gray-300 hover:text-white capitalize w-full text-left transition-colors duration-300"
+                  aria-label={`Navegar para a seção ${item === 'servicos' ? 'serviços' : item}`}
                 >
                   {item === 'servicos' ? 'serviços' : item}
                 </button>
@@ -264,7 +292,7 @@ function App() {
         <div 
           className="absolute inset-0 opacity-5"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1920')`,
+            backgroundImage: "url('/teste.jpg')", // CORRIGIDO: Removido './public' e a vírgula extra
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
@@ -273,11 +301,11 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="space-y-6 animate-fade-in text-center lg:text-left">
               <div className="space-y-2">
-                <p className="text-lg sm:text-xl text-gray-300">Olá, me chamo</p>
+                <p className="text-6xl sm:text-7xl text-gray-300">Olá, sou o</p>
                 <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
                   Gustavo Martins
                 </h1>
-                <p className="text-xl sm:text-2xl lg:text-3xl text-gray-300">
+                <p className="text-3xl sm:text-4xl lg:text-5xl text-gray-300">
                   Desenvolvedor Web
                 </p>
               </div>
@@ -319,7 +347,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="flex justify-center order-2 lg:order-1">
               <img 
-                src="/" 
+                src="/sua-foto-aqui.jpg" // Lembre-se de substituir este caminho pela sua foto real
                 alt="Gustavo Martins" 
                 className="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 border-2 border-gray-600"
               />
@@ -397,6 +425,7 @@ function App() {
                 <button 
                   onClick={() => setSelectedProject(null)}
                   className="absolute top-4 right-4 bg-black/50 p-2 rounded-full hover:bg-black/70 transition-colors"
+                  aria-label="Fechar detalhes do projeto"
                 >
                   <X className="w-6 h-6" />
                 </button>
@@ -417,6 +446,8 @@ function App() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a 
                     href={selectedProject.demo}
+                    target="_blank" // Abre em nova aba
+                    rel="noopener noreferrer" // Segurança
                     className="flex items-center justify-center space-x-2 bg-gradient-to-r from-gray-600 to-gray-800 px-4 sm:px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform duration-300 border border-gray-500"
                   >
                     <ExternalLink className="w-5 h-5" />
@@ -424,6 +455,8 @@ function App() {
                   </a>
                   <a 
                     href={selectedProject.github}
+                    target="_blank" // Abre em nova aba
+                    rel="noopener noreferrer" // Segurança
                     className="flex items-center justify-center space-x-2 border border-gray-500 px-4 sm:px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300"
                   >
                     <Github className="w-5 h-5" />
@@ -467,7 +500,7 @@ function App() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {services.map((service, index) => (
               <div 
-                key={index}
+                key={`${service.title}-${index}`} // Melhor key para serviços
                 className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 sm:p-8 rounded-xl border border-gray-600 hover:scale-105 hover:border-gray-400 transition-all duration-300"
               >
                 <div className="text-gray-300 mb-4">
@@ -489,26 +522,38 @@ function App() {
           </h2>
           <div className="max-w-2xl mx-auto">
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 sm:p-8 rounded-xl border border-gray-600">
-              <form className="space-y-6">
+              <form className="space-y-6" onSubmit={handleSubmit}> {/* Adicionado onSubmit */}
                 <div>
-                  <label className="block text-sm font-medium mb-2 text-gray-300">Nome</label>
+                  <label htmlFor="name" className="block text-sm font-medium mb-2 text-gray-300">Nome</label>
                   <input 
                     type="text" 
+                    id="name"
+                    name="name" // Adicionado name
+                    value={formData.name} // Controlado pelo estado
+                    onChange={handleChange} // Lidar com mudanças
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gray-400 focus:border-transparent text-white placeholder-gray-400"
                     placeholder="Seu nome"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-2 text-gray-300">Email</label>
+                  <label htmlFor="email" className="block text-sm font-medium mb-2 text-gray-300">Email</label>
                   <input 
                     type="email" 
+                    id="email"
+                    name="email" // Adicionado name
+                    value={formData.email} // Controlado pelo estado
+                    onChange={handleChange} // Lidar com mudanças
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gray-400 focus:border-transparent text-white placeholder-gray-400"
                     placeholder="seu@email.com"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-2 text-gray-300">Mensagem</label>
+                  <label htmlFor="message" className="block text-sm font-medium mb-2 text-gray-300">Mensagem</label>
                   <textarea 
+                    id="message"
+                    name="message" // Adicionado name
+                    value={formData.message} // Controlado pelo estado
+                    onChange={handleChange} // Lidar com mudanças
                     rows={5}
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gray-400 focus:border-transparent text-white placeholder-gray-400 resize-none"
                     placeholder="Sua mensagem..."
@@ -535,28 +580,31 @@ function App() {
                 
                 <div className="flex justify-center space-x-6">
                   <a 
-                    href="https://instagram.com" 
+                    href="https://instagram.com/seu-usuario" // Substitua pelo seu usuário
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-pink-400 transition-colors transform hover:scale-110"
+                    aria-label="Instagram" // CORRIGIDO: finalizado o aria-label e a tag <a>
                   >
-                    <Instagram className="w-8 h-8" />
+                    <Instagram className="w-7 h-7" />
                   </a>
                   <a 
-                    href="https://github.com" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-colors transform hover:scale-110"
-                  >
-                    <Github className="w-8 h-8" />
-                  </a>
-                  <a 
-                    href="https://linkedin.com" 
+                    href="https://linkedin.com/in/seu-usuario" // Substitua pelo seu usuário
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-400 transition-colors transform hover:scale-110"
+                    aria-label="LinkedIn"
                   >
-                    <Linkedin className="w-8 h-8" />
+                    <Linkedin className="w-7 h-7" />
+                  </a>
+                  <a 
+                    href="https://github.com/seu-usuario" // Substitua pelo seu usuário
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-gray-300 transition-colors transform hover:scale-110"
+                    aria-label="GitHub"
+                  >
+                    <Github className="w-7 h-7" />
                   </a>
                 </div>
               </div>
@@ -566,11 +614,9 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="py-6 sm:py-8 border-t border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gray-400 text-sm sm:text-base">
-            © 2024 Gustavo Martins. Todos os direitos reservados.
-          </p>
+      <footer className="py-6 text-center text-gray-500 text-sm border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p>&copy; {new Date().getFullYear()} Gustavo Martins. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
