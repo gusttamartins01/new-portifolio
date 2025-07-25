@@ -6,7 +6,7 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
@@ -16,7 +16,7 @@
   .animate-fade-in {
     animation: fadeIn 1s ease-in-out;
   }
-  
+
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -27,11 +27,11 @@
       transform: translateY(0);
     }
   }
-  
+
   .animate-float {
     animation: float 6s ease-in-out infinite;
   }
-  
+
   @keyframes float {
     0%, 100% {
       transform: translateY(0px);
@@ -40,9 +40,9 @@
       transform: translateY(-20px);
     }
   }
-  
+
   .bg-code-pattern {
-    background-image: 
+    background-image:
       linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%),
       linear-gradient(-45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%),
       linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.05) 75%),
@@ -140,27 +140,27 @@ textarea:focus {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
+
   .text-mobile-sm {
     font-size: 0.75rem;
   }
-  
+
   .text-mobile-base {
     font-size: 0.875rem;
   }
-  
+
   .text-mobile-lg {
     font-size: 1rem;
   }
-  
+
   .text-mobile-xl {
     font-size: 1.25rem;
   }
-  
+
   .text-mobile-2xl {
     font-size: 1.5rem;
   }
-  
+
   .text-mobile-3xl {
     font-size: 1.875rem;
   }
@@ -200,7 +200,7 @@ textarea:focus {
   .no-print {
     display: none !important;
   }
-  
+
   body {
     background: white !important;
     color: black !important;
