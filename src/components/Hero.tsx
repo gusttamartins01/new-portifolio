@@ -10,7 +10,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
       <div 
         className="absolute inset-0 opacity-5"
         style={{
-          backgroundImage: "url('/src/assetes/desenhoeu.jpg')", // Ajuste o caminho da imagem
+          backgroundImage: "url('\src\assetes\desenhoeu.jpg')", // Ajuste o caminho da imagem
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
