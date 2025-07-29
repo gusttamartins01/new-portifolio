@@ -84,13 +84,13 @@ const Contact: React.FC = () => {
             </form>
           </div>
           <div className="flex justify-center space-x-6 mt-8">
-            <a href="https://github.com/seuusuario" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/gusttamartins01" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-white-400 hover:text-white transition-colors">
               <Github className="w-8 h-8" />
             </a>
-            <a href="https://linkedin.com/in/seuusuario" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://linkedin.com/in/gustavo-martins-197b70298/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-blue-400 hover:text-white transition-colors">
               <Linkedin className="w-8 h-8" />
             </a>
-            <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://instagram.com/gustta_gus" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-red-400 hover:text-white transition-colors">
               <Instagram className="w-8 h-8" />
             </a>
           </div>

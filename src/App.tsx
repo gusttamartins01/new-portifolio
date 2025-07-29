@@ -41,9 +41,9 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p>&copy; {new Date().getFullYear()} Gustavo Martins. Todos os direitos reservados.</p>
           <div className="flex justify-center space-x-4 mt-4">
-            <a href="https://github.com/seuusuario" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-white transition-colors"><Github className="w-6 h-6" /></a>
-            <a href="https://linkedin.com/in/seuusuario" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-white transition-colors"><Linkedin className="w-6 h-6" /></a>
-            <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-white transition-colors"><Instagram className="w-6 h-6" /></a>
+            <a href="https://github.com/gusttamartins01" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-white transition-colors"><Github className="w-6 h-6" /></a>
+            <a href="https://linkedin.com/in/gustavo-martins-197b70298" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-white transition-colors"><Linkedin className="w-6 h-6" /></a>
+            <a href="https://instagram.com/gustta_gus" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-white transition-colors"><Instagram className="w-6 h-6" /></a>
           </div>
         </div>
       </footer>
