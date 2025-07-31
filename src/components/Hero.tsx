@@ -38,8 +38,8 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
             </div>
           </div>
 
-          {/* Texto principal com fontes maiores */}
-          <div className="flex-1 space-y-6 text-center lg:text-left max-w-md sm:max-w-lg md:max-w-xl mx-auto lg:mx-0">
+          {/* Texto principal com margem maior à esquerda */}
+          <div className="flex-1 space-y-6 text-center lg:text-left px-6 sm:px-8 md:px-10 lg:pr-16 lg:pl-4">
             <div className="space-y-2">
               <p className="text-5xl sm:text-6xl md:text-7xl font-light text-gray-300 leading-snug">
                 Olá, me chamo
