@@ -7,7 +7,7 @@ const About: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="flex justify-center order-2 lg:order-1">
             <img 
-              src="\public\assetes\gus.jpg" // Ajuste o caminho da imagem
+              src="/assetes/gus.jpg" // Ajuste o caminho da imagem
               alt="Gustavo Martins" 
               className="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300 border-2 border-gray-600"
             />

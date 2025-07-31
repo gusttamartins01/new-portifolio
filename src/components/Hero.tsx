@@ -10,7 +10,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
       <div 
         className="absolute inset-0 opacity-5"
         style={{
-          backgroundImage: "url('public/assetes/desenvolvimento.jpg')", // Ajuste o caminho da imagem
+          backgroundImage: "url('/assetes/desenvolvimento.jpg')", // Ajuste o caminho da imagem
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -49,7 +49,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-gray-600 to-gray-400 rounded-full blur-xl opacity-20 animate-pulse"></div>
               <img 
-                src="\public\assetes\gus1.jpg" // Ajuste o caminho da imagem
+                src="/assetes/gus1.jpg" // Ajuste o caminho da imagem
                 alt="Gustavo Martins" 
                 className="relative w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-full border-4 border-gray-600 shadow-2xl hover:scale-105 transition-transform duration-300"
               />
