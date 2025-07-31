@@ -115,76 +115,122 @@ textarea:focus {
   }
 }
 
-/* Responsive breakpoints */
-@media (max-width: 640px) {
-  .text-responsive {
-    font-size: 0.875rem;
-  }
-}
+/* Responsive typography */
+.text-responsive {
+  font-size: 1rem; /* base */
 
-@media (min-width: 641px) and (max-width: 768px) {
-  .text-responsive {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 769px) {
-  .text-responsive {
-    font-size: 1.125rem;
-  }
-}
-
-/* Enhanced mobile responsiveness */
-@media (max-width: 480px) {
-  .container-mobile {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .text-mobile-sm {
-    font-size: 0.75rem;
-  }
-
-  .text-mobile-base {
+  @media (max-width: 480px) {
     font-size: 0.875rem;
   }
 
-  .text-mobile-lg {
-    font-size: 1rem;
+  @media (min-width: 481px) and (max-width: 640px) {
+    font-size: 0.95rem;
   }
 
-  .text-mobile-xl {
+  @media (min-width: 641px) and (max-width: 768px) {
+    font-size: 1.1rem;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
     font-size: 1.25rem;
   }
 
-  .text-mobile-2xl {
+  @media (min-width: 1025px) and (max-width: 1440px) {
     font-size: 1.5rem;
   }
 
-  .text-mobile-3xl {
-    font-size: 1.875rem;
+  @media (min-width: 1441px) {
+    font-size: 1.75rem;
   }
 }
 
-/* Tablet specific styles */
-@media (min-width: 768px) and (max-width: 1024px) {
+/* Container padding responsive */
+.container-mobile {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @media (min-width: 481px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  @media (min-width: 1440px) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+/* Text sizes mobile */
+.text-mobile-sm {
+  font-size: 0.75rem;
+}
+
+.text-mobile-base {
+  font-size: 0.875rem;
+}
+
+.text-mobile-lg {
+  font-size: 1rem;
+}
+
+.text-mobile-xl {
+  font-size: 1.25rem;
+}
+
+.text-mobile-2xl {
+  font-size: 1.5rem;
+}
+
+.text-mobile-3xl {
+  font-size: 1.875rem;
+}
+
+/* Responsive grid for tablet and desktop */
+.tablet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 767px) {
   .tablet-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr; /* mobile: 1 coluna */
   }
 }
 
-/* Desktop specific styles */
-@media (min-width: 1024px) {
+.desktop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 1023px) {
   .desktop-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* tablets */
   }
 }
 
-/* Ultra-wide screen support */
-@media (min-width: 1920px) {
-  .ultra-wide-container {
-    max-width: 1600px;
+@media (max-width: 639px) {
+  .desktop-grid {
+    grid-template-columns: 1fr; /* mobile */
   }
+}
+
+/* Ultra-wide container max width */
+.ultra-wide-container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* High DPI display support */
