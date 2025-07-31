@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, X, Github, Linkedin, Instagram } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 interface NavigationProps {
   isMenuOpen: boolean;
@@ -10,6 +10,11 @@ interface NavigationProps {
 
 const Navigation: React.FC<NavigationProps> = ({ isMenuOpen, setIsMenuOpen, activeSection, scrollToSection }) => {
   const navItems = ['inicio', 'sobre', 'projetos', 'habilidades', 'servicos', 'contatos'];
+
+  const handleNavClick = (item: string) => {
+    scrollToSection(item);
+    setIsMenuOpen(false); // fecha menu no mobile
+  };
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-gray-700/50">
@@ -24,7 +29,7 @@ const Navigation: React.FC<NavigationProps> = ({ isMenuOpen, setIsMenuOpen, acti
             {navItems.map((item) => (
               <button
                 key={item}
-                onClick={() => scrollToSection(item)}
+                onClick={() => handleNavClick(item)}
                 className={`capitalize transition-all duration-300 hover:text-white ${
                   activeSection === item ? 'text-white' : 'text-gray-400'
                 }`}
@@ -53,7 +58,7 @@ const Navigation: React.FC<NavigationProps> = ({ isMenuOpen, setIsMenuOpen, acti
             {navItems.map((item) => (
               <button
                 key={item}
-                onClick={() => scrollToSection(item)}
+                onClick={() => handleNavClick(item)}
                 className="block px-3 py-2 text-gray-300 hover:text-white capitalize w-full text-left transition-colors duration-300"
                 aria-label={`Navegar para a seção ${item === 'servicos' ? 'serviços' : item}`}
               >

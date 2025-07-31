@@ -1,24 +1,31 @@
-import React from 'react';
-import { skills } from '../data/skillsData';
-import { Skill } from '../types'; // Importe a interface Skill
+import React from "react";
+import skills from "../data/skillsData";
+import { Skill } from "../types";
 
-const Skills: React.FC = () => {
+export default function Skills() {
   return (
-    <section id="habilidades" className="py-16 sm:py-20 bg-gradient-to-r from-gray-900 to-black">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-          Habilidades
-        </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 sm:gap-6">
+    <section
+      id="habilidades"
+      className="py-24 bg-gray-900 text-white scroll-mt-24"
+    >
+      <div className="container mx-auto">
+        <h2 className="text-4xl font-bold mb-12 text-center">Minhas Habilidades</h2>
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
           {skills.map((skill: Skill) => (
-            <div 
+            <div
               key={skill.name}
-              className="bg-gradient-to-br from-gray-800 to-gray-900 p-4 sm:p-6 rounded-xl text-center border border-gray-600 hover:scale-105 hover:border-gray-400 transition-all duration-300 group"
+              className="text-center bg-gray-800 rounded-2xl p-4 shadow-lg hover:bg-gray-700 transition transform hover:-translate-y-1 hover:scale-105"
             >
-              <div className={`${skill.color} group-hover:scale-110 transition-transform duration-300`}>
-                {skill.icon}
+              <div
+                className={`${skill.color} flex justify-center items-center`}
+              >
+                <div className="transition-transform transform hover:scale-110">
+                  {React.cloneElement(skill.icon as React.ReactElement, {
+                    className: "w-16 h-16 mx-auto mb-3",
+                  })}
+                </div>
               </div>
-              <h3 className="font-semibold text-sm sm:text-lg text-gray-200">{skill.name}</h3>
+              <p className="mt-2 text-lg font-medium">{skill.name}</p>
             </div>
           ))}
         </div>
@@ -26,5 +33,3 @@ const Skills: React.FC = () => {
     </section>
   );
 }
-
-export default Skills;
