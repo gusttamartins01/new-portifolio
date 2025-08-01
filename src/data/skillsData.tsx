@@ -6,7 +6,7 @@ import {
   SiNodedotjs,
   SiTailwindcss,
   SiTypescript,
-  SiBootstrap,
+  SiPython,
   SiMysql,
   SiPostgresql,
   SiGit,
@@ -54,10 +54,12 @@ export const skillsRow2: Skill[] = [
     icon: <SiTypescript />,
   },
   {
-    name: 'Bootstrap',
-    color: 'text-purple-700',
-    icon: <SiBootstrap />,
-  },
+  name: 'Python',
+  color: 'text-[#3776AB]',
+  icon: <SiPython />,
+},
+
+
   {
     name: 'MySQL',
     color: 'text-blue-700',
