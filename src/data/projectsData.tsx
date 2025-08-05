@@ -15,7 +15,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Sistema web para uma academia e para cadastro de clientes",
     description: "Sistema que para cadastro de clientes, e feedbacks de melhorias e implementações, e apresentação de uma academia voltado a resultados com visão computacional",
-    tech: ["React", "TypeScript", "Tailwind","SupaBase"],
+    tech: ["React", "TypeScript", "Tailwind","Node.js","SupaBase"],
     image: "/assetes/acad.png",
     demo: "https://revo-fit.com/",
     github: "https://github.com/gusttamartins01/Revo-Projeto.git"
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Chatbot institucional",
     description: "Chatboty com IA para uxiliar nas demndas e suporte ao atendimento dos alunos da instutuição",
-    tech: ["HTML5", "CSS3","JavaScript","API","Node.JS", "Inteligência Artificial"],
+    tech: ["HTML5", "CSS3","JavaScript","API","Node.js", "Inteligência Artificial"],
     image: "/assetes/Chatbot.jpg",
     demo:  "https://chatbot-teste-pearl.vercel.app/",
     github: "https://github.com/gusttamartins01/chatbot-teste.git"
