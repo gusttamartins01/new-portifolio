@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Instagram } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 interface FormData {
   name: string;
@@ -24,10 +25,21 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log('Formulário enviado:', formData);
-    // Aqui você pode adicionar a lógica para enviar o formulário (e.g., para um backend, EmailJS, etc.)
-    alert('Mensagem enviada! Entrarei em contato em breve.');
-    setFormData({ name: '', email: '', message: '' }); // Limpar formulário
+
+    const dataToSend = {
+      ...formData,
+      time: new Date().toLocaleString('pt-BR') // Isso permite que o {{time}} seja usado no template
+    };
+
+    emailjs.send('service_2sm85bc', 'template_3z2lxbc', dataToSend, 'zAC58VMl6cUvfeaCr')
+      .then(() => {
+        alert('Mensagem enviada com sucesso!');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch(error => {
+        console.error('Erro ao enviar:', error);
+        alert('Ocorreu um erro. Tente novamente.');
+      });
   };
 
   return (
@@ -98,6 +110,6 @@ const Contact: React.FC = () => {
       </div>
     </section>
   );
-}; // Certifique-se de que o parêntese de fechamento e o ponto e vírgula estão aqui.
+};
 
 export default Contact;
