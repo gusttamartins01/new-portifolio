@@ -9,9 +9,9 @@ const About: React.FC = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Imagem responsiva */}
-          <div className="flex justify-center lg:justify-end order-2 lg:order-1">
+          <div className="flex justify-center lg:justify-end order-2 lg:order-10">
             <img
-              src="/assetes/gustta.jpg"
+              src="/assetes/workeu.jpg"
               alt="Gustavo Martins"
               className="w-52 h-52 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-2xl shadow-2xl border-2 border-gray-600 transition-transform duration-300 hover:scale-105"
               loading="lazy"
