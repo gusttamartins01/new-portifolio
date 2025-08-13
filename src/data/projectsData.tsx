@@ -2,6 +2,16 @@
 import { Project } from '../types';
 
 export const projects: Project[] = [
+
+ {
+    id: 3,
+    title: "Em desenvolvimento: App BMQ",
+    description: "Sistema web mobile voltado para autoajuda, seu amigo de bolso",
+    tech: ["React", "TypeScript", "Tailwind","Node.js","Postgres", "Python", "Flutter", "N8N"],
+    image: "/assetes/bmqlogo.png",
+    demo:  "https://bem-me-quer-green.vercel.app/",
+    github: "https://github.com/gusttamartins01/bem-me-quer-palpavel"
+  },
   {
     id: 1,
     title: "Jogo interativo para coletar frutas",
@@ -29,5 +39,25 @@ export const projects: Project[] = [
     demo:  "https://chatbot-teste-pearl.vercel.app/",
     github: "https://github.com/gusttamartins01/chatbot-teste.git"
   },
+
+   {
+    id: 3,
+    title: "Landing Page Software House",
+    description: "Landing Page da Software House Robo Dev",
+    tech: ["React", "TypeScript", "Tailwind","Node.js","Postgres"],
+    image: "/assetes/robodev.jpg",
+    demo:  "https://portf-lio-robodev.vercel.app/",
+    github: "https://github.com/gusttamartins01/portf-lio-robodev"
+  },
+  {
+    id: 3,
+    title: "Tela de autenticação de rede WI-FI",
+    description: "Tela para autenticar wi-fi de launos, professores e funcionários da Instuição",
+    tech: ["HTML5", "CSS3", "Autenticação com banco de dados"],
+    image: "/assetes/autentication.png",
+    demo:  "https://tela-de-autenticao.vercel.app/",
+    github: "https://github.com/gusttamartins01/Tela-de-autenticao"
+  },
+
   
 ];
