@@ -14,7 +14,7 @@ const Navigation: React.FC<NavigationProps> = ({
   activeSection,
   scrollToSection,
 }) => {
-  const navItems = ['inicio', 'sobre', 'projetos', 'habilidades', 'servicos', 'contatos'];
+  const navItems = ['inicio', 'sobre', 'projetos', 'habilidades', 'experiencia', 'servicos', 'contatos'];
 
   const handleNavClick = (item: string) => {
     scrollToSection(item);
