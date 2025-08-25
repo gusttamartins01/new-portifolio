@@ -1,32 +1,41 @@
 import React from "react";
-import { Briefcase, GraduationCap, Laptop } from "lucide-react";
+import { Briefcase, GraduationCap, Laptop,  Workflow } from "lucide-react";
 
 const experiences = [
   {
     cargo: "Desenvolvedor Web & Mobile - Fullstack",
-    empresa: "Freelancer",
+    empresa: "Projetos para Clientes (Freelancer)",
     periodo: "2025 - Atual",
     descricao:
-      "Desenvolvimento de soluções digitais completas, abrangendo aplicações web, sistemas corporativos e aplicativos mobile. Atuação no front-end com React, Tailwind e frameworks modernos, no back-end com Node.js e bancos de dados, além de integração de APIs e foco em performance, escalabilidade e UX/UI.",
+      "Desenvolvimento de sites institucionais, sistemas corporativos e aplicativos mobile sob demanda para clientes. Experiência em front-end com React, Tailwind e animações modernas, além de back-end com Node.js, Express e bancos de dados relacionais e não relacionais. Também realizei integrações de APIs e implementei práticas de otimização de performance, escalabilidade e foco em UX/UI.",
     icon: Briefcase,
   },
   {
-    cargo: "Estudante ADS",
+    cargo: "Estudante de ADS",
     empresa: "Unifametro",
-    periodo: "2022 - Atual",
+    periodo: "2025 - Atual",
     descricao:
-      "Graduação em Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento de sistemas, sites e apps e banco de dados.",
+      "Graduação em Análise e Desenvolvimento de Sistemas, com disciplinas práticas de programação, banco de dados, lógica, engenharia de software e projetos integradores. Participei da criação de sistemas acadêmicos e protótipos como parte dos trabalhos da faculdade.",
     icon: GraduationCap,
   },
   {
-    cargo: "Projetos Pessoais",
+    cargo: "Projetos Pessoais e Open Source",
     empresa: "GitHub",
-    periodo: "2022 - Atual",
+    periodo: "2025 - Atual",
     descricao:
-      "Criação de portfólios, sistemas web e mobile e experimentos com inteligência artificial.",
+      "Criação de portfólios interativos, catálogos digitais, sistemas web responsivos e experimentos com inteligência artificial. Exploro novas tecnologias em JavaScript, React, Bootstrap, Tailwind, Node.js e integração com APIs, além de publicar projetos no GitHub.",
     icon: Laptop,
   },
+  {
+    cargo: "Automação de Processos com IA",
+    empresa: "n8n & Agentes de IA",
+    periodo: "2025 - Atual",
+    descricao:
+      "Desenvolvimento de fluxos de automação utilizando n8n, integrando sistemas de e-mail, formulários e bancos de dados. Criação de um agente de IA capaz de interpretar demandas recebidas por e-mail e responder automaticamente, aumentando a eficiência e reduzindo tempo de atendimento.",
+    icon: Workflow, 
+  }
 ];
+
 
 const Experience: React.FC = () => {
   return (
