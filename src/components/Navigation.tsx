@@ -27,7 +27,7 @@ const Navigation: React.FC<NavigationProps> = ({
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="text-xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent select-none">
-            GM
+           Gustavo Martins | Dev
           </div>
 
           {/* Menu Desktop */}
