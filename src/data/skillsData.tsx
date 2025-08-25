@@ -11,6 +11,7 @@ import {
   SiPostgresql,
   SiGit,
   SiGithub,
+  SiN8N,
 } from 'react-icons/si';
 import { Skill } from '../types';
 
@@ -79,6 +80,11 @@ export const skillsRow2: Skill[] = [
     name: 'GitHub',
     color: 'text-gray-400',
     icon: <SiGithub />,
+  },
+  {
+    name: 'N8N',
+    color: 'text-red-400',
+    icon: <SiN8N />,
   },
 ];
 
