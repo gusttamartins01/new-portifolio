@@ -71,14 +71,19 @@ export const skillsRow2: Skill[] = [
   icon: <SiPython />,
   },
   {
-    name: 'MongoDB',
-    color: 'text-green-700',
-    icon: <SiMongodb />,
+    name: 'N8N',
+    color: 'text-red-600',
+    icon: <SiN8N />,
   },
   {
     name: 'Supabase',
     color: 'text-[#38c389]',
     icon: <SiSupabase />,
+  },
+  {
+    name: 'MongoDB',
+    color: 'text-green-700',
+    icon: <SiMongodb />,
   },
   {
     name: 'MySQL',
@@ -100,11 +105,7 @@ export const skillsRow2: Skill[] = [
     color: 'text-gray-400',
     icon: <SiGithub />,
   },
-  {
-    name: 'N8N',
-    color: 'text-red-600',
-    icon: <SiN8N />,
-  },
+
 ];
 
 const skills: Skill[] = [...skillsRow1, ...skillsRow2];
