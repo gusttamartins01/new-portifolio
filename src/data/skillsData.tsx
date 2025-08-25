@@ -5,6 +5,7 @@ import {
   SiReact,
   SiNodedotjs,
   SiTailwindcss,
+  SiBootstrap,
   SiTypescript,
   SiPython,
   SiMysql,
@@ -12,6 +13,9 @@ import {
   SiGit,
   SiGithub,
   SiN8N,
+  SiSupabase,
+  SiMongodb,
+
 } from 'react-icons/si';
 import { Skill } from '../types';
 
@@ -31,36 +35,51 @@ export const skillsRow1: Skill[] = [
     color: 'text-yellow-400',
     icon: <SiJavascript />,
   },
+   {
+    name: 'Node.js',
+    color: 'text-green-500',
+    icon: <SiNodedotjs />,
+  },
   {
     name: 'React',
-    color: 'text-cyan-400',
+    color: 'text-cyan-300',
     icon: <SiReact />,
   },
   {
-    name: 'Node.js',
-    color: 'text-green-600',
-    icon: <SiNodedotjs />,
+    name: 'TypeScript',
+    color: 'text-blue-500',
+    icon: <SiTypescript />,
   },
   {
     name: 'TailwindCSS',
     color: 'text-teal-400',
     icon: <SiTailwindcss />,
   },
+  {
+    name: 'Bootstrap',
+    color: 'text-purple-700',
+    icon: <SiBootstrap />,
+  },
+ 
 ];
 
 export const skillsRow2: Skill[] = [
-  {
-    name: 'TypeScript',
-    color: 'text-blue-600',
-    icon: <SiTypescript />,
-  },
+
   {
   name: 'Python',
   color: 'text-[#3776AB]',
   icon: <SiPython />,
-},
-
-
+  },
+  {
+    name: 'MongoDB',
+    color: 'text-green-700',
+    icon: <SiMongodb />,
+  },
+  {
+    name: 'Supabase',
+    color: 'text-[#38c389]',
+    icon: <SiSupabase />,
+  },
   {
     name: 'MySQL',
     color: 'text-blue-700',
@@ -83,7 +102,7 @@ export const skillsRow2: Skill[] = [
   },
   {
     name: 'N8N',
-    color: 'text-red-400',
+    color: 'text-red-600',
     icon: <SiN8N />,
   },
 ];
