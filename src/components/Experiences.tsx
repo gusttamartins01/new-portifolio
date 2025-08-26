@@ -27,13 +27,30 @@ const experiences = [
     icon: Laptop,
   },
   {
-    cargo: "Automação de Processos com IA",
-    empresa: "n8n & Agentes de IA",
+    cargo: "Desenvolvedor de sistemas e fluxos de automatização",
+    empresa: " Projetos para Clientes (Freelancer)",
     periodo: "2025 - Atual",
     descricao:
       "Desenvolvimento de fluxos de automação utilizando n8n, integrando sistemas de e-mail, formulários e bancos de dados. Criação de um agente de IA capaz de interpretar demandas recebidas por e-mail e responder automaticamente, aumentando a eficiência e reduzindo tempo de atendimento.",
     icon: Workflow, 
-  }
+  },
+  {
+    cargo: "Desenvolvedor Web & Mobile - Fullstack ",
+    empresa: " Projetos para Clientes (Freelancer)",
+    periodo: "2025 - Atual",
+    descricao:
+      "Desenvolvimento de um sistema Web & Mobile voltado para autoajuda dos usuários, incluindo funcionalidades de diário pessoal, organização de músicas favoritas, catálogo de filmes e séries, registro de livros lidos e frases motivacionais diárias. Atuei em todas as etapas do projeto, desde o design da interface (UI/UX) até a implementação do back-end, garantindo integração fluida, responsividade e experiência de uso intuitiva.",
+    icon: Workflow, 
+  },
+  {
+  cargo: "Instrutor de Curso - Introdução ao Desenvolvimento Web",
+  empresa: "Projeto Educacional / Workshops",
+  periodo: "2024 - 2025",
+  descricao:
+    "Ministrei aulas introdutórias de desenvolvimento web com foco em HTML, CSS e JavaScript, abordando desde as principais tags e estruturação de páginas até estilização e interatividade com scripts. Preparei materiais didáticos, exercícios práticos e exemplos aplicados para auxiliar iniciantes a criarem suas primeiras páginas web, incentivando boas práticas e lógica de programação básica.",
+  icon: GraduationCap,
+},
+
 ];
 
 
