@@ -45,7 +45,7 @@ const experiences = [
   {
   cargo: "Instrutor de Curso - Introdução ao Desenvolvimento Web",
   empresa: "Projeto Educacional / Workshops",
-  periodo: "2024 - 2025",
+  periodo: "2025 - 2025",
   descricao:
     "Ministrei aulas introdutórias de desenvolvimento web com foco em HTML, CSS e JavaScript, abordando desde as principais tags e estruturação de páginas até estilização e interatividade com scripts. Preparei materiais didáticos, exercícios práticos e exemplos aplicados para auxiliar iniciantes a criarem suas primeiras páginas web, incentivando boas práticas e lógica de programação básica.",
   icon: GraduationCap,
