@@ -3,9 +3,9 @@ import { Briefcase, GraduationCap, Laptop,  Workflow } from "lucide-react";
 
 const experiences = [
   {
-    cargo: "Desenvolvedor Web & Mobile - Fullstack",
+    cargo: "Desenvolvedor Fullstack",
     empresa: "Projetos para Clientes (Freelancer)",
-    periodo: "2025 - Atual",
+    periodo: "2025",
     descricao:
       "Desenvolvimento de sites institucionais, sistemas corporativos e aplicativos mobile sob demanda para clientes. Experiência em front-end com React, Tailwind e animações modernas, além de back-end com Node.js, Express e bancos de dados relacionais e não relacionais. Também realizei integrações de APIs e implementei práticas de otimização de performance, escalabilidade e foco em UX/UI.",
     icon: Briefcase,
@@ -13,7 +13,7 @@ const experiences = [
   {
     cargo: "Estudante de ADS",
     empresa: "Unifametro",
-    periodo: "2025 - Atual",
+    periodo: "2025",
     descricao:
       "Graduação em Análise e Desenvolvimento de Sistemas, com disciplinas práticas de programação, banco de dados, lógica, engenharia de software e projetos integradores. Participei da criação de sistemas acadêmicos e protótipos como parte dos trabalhos da faculdade.",
     icon: GraduationCap,
@@ -21,7 +21,7 @@ const experiences = [
   {
     cargo: "Projetos Pessoais e Open Source",
     empresa: "GitHub",
-    periodo: "2025 - Atual",
+    periodo: "2025",
     descricao:
       "Criação de portfólios interativos, catálogos digitais, sistemas web responsivos e experimentos com inteligência artificial. Exploro novas tecnologias em JavaScript, React, Bootstrap, Tailwind, Node.js e integração com APIs, além de publicar projetos no GitHub.",
     icon: Laptop,
@@ -29,27 +29,34 @@ const experiences = [
   {
     cargo: "Desenvolvedor de sistemas e fluxos de automatização",
     empresa: " Projetos para Clientes (Freelancer)",
-    periodo: "2025 - Atual",
+    periodo: "2025",
     descricao:
       "Desenvolvimento de fluxos de automação utilizando n8n, integrando sistemas de e-mail, formulários e bancos de dados. Criação de um agente de IA capaz de interpretar demandas recebidas por e-mail e responder automaticamente, aumentando a eficiência e reduzindo tempo de atendimento.",
     icon: Workflow, 
   },
   {
-    cargo: "Desenvolvedor Web & Mobile - Fullstack ",
-    empresa: " Projetos para Clientes (Freelancer)",
-    periodo: "2025 - Atual",
+    cargo: "Desenvolvedor Fullstack ",
+    empresa: "Projetos para Clientes (Freelancer)",
+    periodo: "2025",
     descricao:
       "Desenvolvimento de um sistema Web & Mobile voltado para autoajuda dos usuários, incluindo funcionalidades de diário pessoal, organização de músicas favoritas, catálogo de filmes e séries, registro de livros lidos e frases motivacionais diárias. Atuei em todas as etapas do projeto, desde o design da interface (UI/UX) até a implementação do back-end, garantindo integração fluida, responsividade e experiência de uso intuitiva.",
-    icon: Workflow, 
+    icon: Briefcase, 
   },
   {
   cargo: "Instrutor de Curso - Introdução ao Desenvolvimento Web",
   empresa: "Projeto Educacional / Workshops",
-  periodo: "2025 - 2025",
+  periodo: "2025",
   descricao:
     "Ministrei aulas introdutórias de desenvolvimento web com foco em HTML, CSS e JavaScript, abordando desde as principais tags e estruturação de páginas até estilização e interatividade com scripts. Preparei materiais didáticos, exercícios práticos e exemplos aplicados para auxiliar iniciantes a criarem suas primeiras páginas web, incentivando boas práticas e lógica de programação básica.",
   icon: GraduationCap,
 },
+{
+  cargo:"Desenvolvedor Fullstack",
+  empresa:"Projetos para Clientes (Freelancer)",
+  periodo:"2025",
+  descricao:"Desenvolvimento de um sistema Web & Mobile para gestão de barbearia, com funcionalidades de agendamento de clientes, controle de serviços e funcionários, painel administrativo e banco de dados para armazenamento seguro. O projeto inclui ainda um chatbot automatizado para atendimento e confirmação de horários. Atuei em todas as etapas, desde o design da interface (UI/UX) até a implementação do back-end, garantindo responsividade, integração eficiente e uma experiência prática tanto para clientes quanto para gestores.",
+  icon:Briefcase,
+}
 
 ];
 
