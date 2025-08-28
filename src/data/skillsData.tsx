@@ -81,7 +81,7 @@ export const skillsRow2: Skill[] = [
     icon: <SiSupabase />,
   },
   {
-    name: 'MongoDB',
+    name: 'Docker',
     color: 'text-blue-600',
     icon: <SiDocker />,
   },
