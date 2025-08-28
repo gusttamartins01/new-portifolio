@@ -58,6 +58,24 @@ export const projects: Project[] = [
     demo:  "https://tela-de-autenticao.vercel.app/",
     github: "https://github.com/gusttamartins01/Tela-de-autenticao"
   },
+  {
+    id: 3,
+    title: "Dashboard de Rotina",
+    description: "Tela para autenticar wi-fi de launos, professores e funcionários da Instuição",
+    tech: ["Python","HTML5", "CSS3", "Autenticação com banco de dados Mockado "],
+    image: "/assetes/dashboard.png",
+    demo:  "https://tela-de-autenticao.vercel.app/",
+    github: "https://github.com/gusttamartins01/dashboard-rotinas-python"
+  },
+  {
+    id: 3,
+    title: "projeto de automação com n8n",
+    description: "Workflows de automação com agente de ia para responder e-mails",
+    tech: ["n8n","JavaScript","PostgresSQL", "Autenticação com banco de dados"],
+    image: "/assetes/n8n.png",
+    demo:  "",
+    github: ""
+  },
 
   
 ];
