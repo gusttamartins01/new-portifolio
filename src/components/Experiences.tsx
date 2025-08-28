@@ -11,14 +11,6 @@ const experiences = [
     icon: Briefcase,
   },
   {
-    cargo: "Estudante de ADS",
-    empresa: "Unifametro",
-    periodo: "2025",
-    descricao:
-      "Graduação em Análise e Desenvolvimento de Sistemas, com disciplinas práticas de programação, banco de dados, lógica, engenharia de software e projetos integradores. Participei da criação de sistemas acadêmicos e protótipos como parte dos trabalhos da faculdade.",
-    icon: GraduationCap,
-  },
-  {
     cargo: "Projetos Pessoais e Open Source",
     empresa: "GitHub",
     periodo: "2025",
