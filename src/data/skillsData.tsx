@@ -14,7 +14,7 @@ import {
   SiGithub,
   SiN8N,
   SiSupabase,
-  SiMongodb,
+  SiDocker,
 
 } from 'react-icons/si';
 import { Skill } from '../types';
@@ -82,8 +82,8 @@ export const skillsRow2: Skill[] = [
   },
   {
     name: 'MongoDB',
-    color: 'text-green-700',
-    icon: <SiMongodb />,
+    color: 'text-blue-600',
+    icon: <SiDocker />,
   },
   {
     name: 'MySQL',
@@ -102,7 +102,7 @@ export const skillsRow2: Skill[] = [
   },
   {
     name: 'GitHub',
-    color: 'text-gray-400',
+    color: 'text-white-800',
     icon: <SiGithub />,
   },
 
