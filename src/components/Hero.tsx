@@ -48,13 +48,13 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
                 Gustavo Martins
               </h1>
               <p className="text-3xl sm:text-4xl md:text-5xl text-gray-300 font-semibold">
-                Desenvolvedor Web
+                Desenvolvedor FullStack
               </p>
             </div>
 
             <p className="text-xl sm:text-2xl md:text-3xl text-gray-400 leading-relaxed">
               Transformo ideias em experiências digitais incríveis. Especializado em desenvolvimento
-              web moderno com foco em performance e usabilidade.
+              FullStack moderno com foco em performance e usabilidade.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:justify-center lg:justify-start">

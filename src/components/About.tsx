@@ -26,8 +26,8 @@ const About: React.FC = () => {
               </h2>
               <div className="space-y-5 text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed">
                 <p className="text-center sm:text-justify">
-                  Sou um desenvolvedor web apaixonado por tecnologia e inovação. Com experiência em desenvolvimento web moderno,
-                  tenho dedicado minhas habilidades em criar soluções digitais que fazem a diferença.
+                 Sou um desenvolvedor fullstack apaixonado por tecnologia e inovação. Com experiência em frontend e backend,
+                 tenho dedicado minhas habilidades a criar soluções digitais completas que fazem a diferença.
                 </p>
                 <p className="text-center sm:text-justify">
                   Minha jornada começou com curiosidade sobre como as coisas funcionam na web, e hoje trabalho com as mais
@@ -35,7 +35,7 @@ const About: React.FC = () => {
                 </p>
                 <p className="text-center sm:text-justify">
                   Acredito que a tecnologia deve ser acessível e útil para todos. Por isso, foco em criar aplicações
-                  intuitivas, performáticas e que realmente resolvem problemas reais das pessoas.
+                  intuitivas, performáticas e que realmente resolvem problemas reais das pessoas. 
                 </p>
               </div>
             </div>

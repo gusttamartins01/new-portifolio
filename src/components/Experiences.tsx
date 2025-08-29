@@ -5,7 +5,7 @@ const experiences = [
   {
     cargo: "Desenvolvedor Fullstack",
     empresa: "Projetos para Clientes (Freelancer)",
-    periodo: "2025",
+    periodo: "2025",    
     descricao:
       "Desenvolvimento de sites institucionais, sistemas corporativos sob demanda para clientes. Experiência em front-end com React, Tailwind e animações modernas, além de back-end com Node.js, e bancos de dados relacionais e não relacionais. Também realizei integrações de APIs e implementei práticas de otimização de performance, escalabilidade e foco em UX/UI.",
     icon: Briefcase,
