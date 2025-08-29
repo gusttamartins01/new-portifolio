@@ -58,6 +58,16 @@ export const projects: Project[] = [
     demo:  "https://tela-de-autenticao.vercel.app/",
     github: "https://github.com/gusttamartins01/Tela-de-autenticao"
   },
+    {
+    id: 3,
+    title:"Sistema de E-Commerce",
+    description:"Sistema de e-commerce para uma loja de vendas de joias e artigos de luxo e grife",
+    tech:["TypeScript","React-vite","Tailwind","Node.Js","PostgresSQL"],
+    image:"/assetes/ecommerce.png",
+    demo:"https://project-ecomerce-one.vercel.app/",
+    github:"https://github.com/gusttamartins01/project-ecomerce",
+
+  },
   {
     id: 3,
     title: "Dashboard de Rotina",
@@ -76,6 +86,5 @@ export const projects: Project[] = [
     demo:  "",
     github: ""
   },
-
   
 ];
