@@ -74,7 +74,7 @@ export const projects: Project[] = [
     description: "Tela para autenticar wi-fi de launos, professores e funcionários da Instuição",
     tech: ["Python","HTML5", "CSS3", "Autenticação com banco de dados Mockado "],
     image: "/assetes/dashboard.png",
-    demo:  "https://tela-de-autenticao.vercel.app/",
+    demo:  "",
     github: "https://github.com/gusttamartins01/dashboard-rotinas-python"
   },
   {
