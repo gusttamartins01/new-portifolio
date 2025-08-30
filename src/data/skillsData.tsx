@@ -15,6 +15,8 @@ import {
   SiN8N,
   SiSupabase,
   SiDocker,
+  SiNpm,
+  SiFigma,
 
 } from 'react-icons/si';
 import { Skill } from '../types';
@@ -60,11 +62,22 @@ export const skillsRow1: Skill[] = [
     color: 'text-purple-700',
     icon: <SiBootstrap />,
   },
+  {
+    name: 'Figma',
+    color: 'text-pink-500',
+    icon: <SiFigma/>,
+  },
+
  
 ];
 
 export const skillsRow2: Skill[] = [
 
+  {
+    name: 'NPM',
+    color: 'text-red-800',
+    icon: <SiNpm />,
+  },
   {
   name: 'Python',
   color: 'text-[#3776AB]',
@@ -87,12 +100,12 @@ export const skillsRow2: Skill[] = [
   },
   {
     name: 'MySQL',
-    color: 'text-blue-700',
+    color: 'text-blue-600',
     icon: <SiMysql />,
   },
   {
     name: 'PostgreSQL',
-    color: 'text-blue-700',
+    color: 'text-blue-500',
     icon: <SiPostgresql />,
   },
   {
