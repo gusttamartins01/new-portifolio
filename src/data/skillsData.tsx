@@ -14,7 +14,7 @@ import {
   SiGithub,
   SiN8N,
   SiSupabase,
-  SiDocker,
+  SiVite,
   SiNpm,
   SiFigma,
 
@@ -73,6 +73,16 @@ export const skillsRow1: Skill[] = [
 
 export const skillsRow2: Skill[] = [
 
+   {
+    name: 'Vite',
+    color: 'text-purple-500',
+    icon: <SiVite />,
+  },
+  {
+    name: 'N8N',
+    color: 'text-red-600',
+    icon: <SiN8N />,
+  },
   {
     name: 'NPM',
     color: 'text-red-800',
@@ -84,20 +94,11 @@ export const skillsRow2: Skill[] = [
   icon: <SiPython />,
   },
   {
-    name: 'N8N',
-    color: 'text-red-600',
-    icon: <SiN8N />,
-  },
-  {
     name: 'Supabase',
     color: 'text-[#38c389]',
     icon: <SiSupabase />,
   },
-  {
-    name: 'Docker',
-    color: 'text-blue-600',
-    icon: <SiDocker />,
-  },
+ 
   {
     name: 'MySQL',
     color: 'text-blue-600',
