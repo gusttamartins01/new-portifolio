@@ -59,7 +59,7 @@ export const skillsRow1: Skill[] = [
   },
   {
     name: 'Bootstrap',
-    color: 'text-purple-700',
+    color: 'text-purple-800',
     icon: <SiBootstrap />,
   },
   {

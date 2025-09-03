@@ -66,7 +66,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
               </button>
               <button
                 onClick={() => scrollToSection('contatos')}
-                className="w-full sm:w-auto border border-gray-500 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300"
+                className="w-full sm:w-auto bg-gradient-to-r from-gray-600 to-gray-800 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:scale-105 transition-transform duration-300 border border-gray-500"
               >
                 Contato
               </button>
