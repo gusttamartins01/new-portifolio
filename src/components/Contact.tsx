@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
 
     emailjs.send('service_2sm85bc', 'template_3z2lxbc', dataToSend, 'zAC58VMl6cUvfeaCr')
       .then(() => {
-        alert('Mensagem enviada com sucesso!');
+        alert('Sua mensagem foi enviada com sucesso!');
         setFormData({ name: '', email: '', message: '' });
       })
       .catch(error => {
