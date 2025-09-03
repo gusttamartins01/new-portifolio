@@ -65,7 +65,7 @@ const Experience: React.FC = () => {
           Experiência
         </h2>
         <p className="mt-4 text-gray-400 max-w-4xl mx-auto md:text-5X1">
-          Um pouco da minha trajetória acadêmica e profissional.
+          Um pouco da minha trajetória profissional.
         </p>
       </div>
 
