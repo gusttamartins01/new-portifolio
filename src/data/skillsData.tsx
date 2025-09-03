@@ -62,21 +62,21 @@ export const skillsRow1: Skill[] = [
     color: 'text-purple-800',
     icon: <SiBootstrap />,
   },
-  {
-    name: 'Figma',
-    color: 'text-pink-500',
-    icon: <SiFigma/>,
+  
+   {
+    name: 'Vite',
+    color: 'text-purple-400',
+    icon: <SiVite />,
   },
 
- 
 ];
 
 export const skillsRow2: Skill[] = [
 
-   {
-    name: 'Vite',
-    color: 'text-purple-500',
-    icon: <SiVite />,
+  {
+    name: 'Figma',
+    color: 'text-pink-500',
+    icon: <SiFigma/>,
   },
   {
     name: 'N8N',

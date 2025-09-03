@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, Linkedin, Instagram } from 'lucide-react';
+import { Github, Linkedin, Instagram, MessageCircle} from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 interface FormData {
@@ -104,6 +104,10 @@ const Contact: React.FC = () => {
             </a>
             <a href="https://instagram.com/gustta_gus" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-red-400 hover:text-white transition-colors">
               <Instagram className="w-8 h-8" />
+            </a>
+            <a href="https://wa.me/5585998568223?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os."   
+            target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-green-400 hover:text-white transition-colors">
+              <MessageCircle className="w-8 h-8" />
             </a>
           </div>
         </div>

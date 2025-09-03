@@ -28,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
           {/* Imagem maior e centralizada */}
           <div className="lg:order-2 flex justify-center px-4 lg:px-12 shrink-0">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-400 to-gray-400 rounded-full blur-xl opacity-20 animate-pulse" />
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-300 to-gray-300 rounded-full blur-xl opacity-20 animate-pulse" />
               <img
                 src="/assetes/gustta.jpg"
                 alt="Gustavo Martins"

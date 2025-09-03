@@ -8,7 +8,7 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import { useScrollSpy } from "./hooks/useScrollSpy";
 import Experience from "./components/Experiences";
-import { Github, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin, Instagram, MessageCircle } from "lucide-react";
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -60,7 +60,7 @@ const App: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
-              className="hover:text-white transition-colors"
+              className="hover:text-white hover:text-grey-500 transition-colors"
             >
               <Github className="w-6 h-6" />
             </a>
@@ -69,7 +69,7 @@ const App: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="hover:text-white transition-colors"
+              className="hover:text-white hover:text-blue-400 transition-colors"
             >
               <Linkedin className="w-6 h-6" />
             </a>
@@ -78,9 +78,18 @@ const App: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="hover:text-white transition-colors"
+              className="hover:text-white hover:text-red-400 transition-colors"
             >
               <Instagram className="w-6 h-6" />
+            </a>
+            <a
+              href="https://wa.me/5585998568223?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os."
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              className="hover:text-white hover:text-green-400 transition-colors"
+            >
+              <MessageCircle className="w-6 h-6" />
             </a>
           </div>
         </div>
