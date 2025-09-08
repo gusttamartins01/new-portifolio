@@ -57,17 +57,6 @@ export const skillsRow1: Skill[] = [
     color: 'text-teal-400',
     icon: <SiTailwindcss />,
   },
-  {
-    name: 'Bootstrap',
-    color: 'text-purple-800',
-    icon: <SiBootstrap />,
-  },
-  
-   {
-    name: 'Vite',
-    color: 'text-purple-400',
-    icon: <SiVite />,
-  },
 
 ];
 
@@ -84,30 +73,9 @@ export const skillsRow2: Skill[] = [
     icon: <SiN8N />,
   },
   {
-    name: 'NPM',
-    color: 'text-red-800',
-    icon: <SiNpm />,
-  },
-  {
-  name: 'Python',
-  color: 'text-[#3776AB]',
-  icon: <SiPython />,
-  },
-  {
-    name: 'Supabase',
-    color: 'text-[#38c389]',
-    icon: <SiSupabase />,
-  },
- 
-  {
     name: 'MySQL',
     color: 'text-blue-600',
     icon: <SiMysql />,
-  },
-  {
-    name: 'PostgreSQL',
-    color: 'text-blue-500',
-    icon: <SiPostgresql />,
   },
   {
     name: 'Git',

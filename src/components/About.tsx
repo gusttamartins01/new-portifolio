@@ -24,7 +24,7 @@ const About: React.FC = () => {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                 Sobre Mim
               </h2>
-              <div className="space-y-5 text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed">
+              <div className="space-y-5 text-gray-200 text-base sm:text-lg md:text-xl leading-relaxed">
                 <p className="text-center sm:text-justify">
                  Sou um desenvolvedor fullstack apaixonado por tecnologia e inovação. Com experiência em frontend e backend,
                  tenho dedicado minhas habilidades a criar soluções digitais completas que fazem a diferença.

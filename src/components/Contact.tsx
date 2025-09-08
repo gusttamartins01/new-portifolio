@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
 
     emailjs.send('service_2sm85bc', 'template_3z2lxbc', dataToSend, 'zAC58VMl6cUvfeaCr')
       .then(() => {
-        alert('Sua mensagem foi enviada com sucesso!');
+        alert('A sua mensagem foi enviada com sucesso!');
         setFormData({ name: '', email: '', message: '' });
       })
       .catch(error => {
@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
               </div>
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-gray-600 to-gray-800 py-3 rounded-lg font-semibold hover:scale-105 transition-transform duration-300 border border-gray-500"
+                className="w-full bg-gradient-to-r from-gray-500 to-gray-800 py-3 rounded-lg font-semibold hover:scale-105 transition-transform duration-300 border border-gray-500"
               >
                 Enviar Mensagem
               </button>

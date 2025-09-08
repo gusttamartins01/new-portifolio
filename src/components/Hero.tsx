@@ -52,7 +52,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
               </p>
             </div>
 
-            <p className="text-xl sm:text-2xl md:text-3xl text-gray-400 leading-relaxed">
+            <p className="text-xl sm:text-2xl md:text-3xl text-gray-200 leading-relaxed">
               Transformo ideias em experiências digitais incríveis. Especializado em desenvolvimento
               FullStack moderno com foco em performance e usabilidade.
             </p>
