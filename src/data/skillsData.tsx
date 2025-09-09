@@ -5,17 +5,11 @@ import {
   SiReact,
   SiNodedotjs,
   SiTailwindcss,
-  SiBootstrap,
   SiTypescript,
-  SiPython,
   SiMysql,
-  SiPostgresql,
   SiGit,
   SiGithub,
   SiN8N,
-  SiSupabase,
-  SiVite,
-  SiNpm,
   SiFigma,
 
 } from 'react-icons/si';
