@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       className="py-16 sm:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
     >
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-        Meus Projetos
+        Projetos
       </h2>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

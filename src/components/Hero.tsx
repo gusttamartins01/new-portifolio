@@ -47,7 +47,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
               <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent leading-tight">
                 Gustavo Martins
               </h1>
-              <p className="text-3xl sm:text-4xl md:text-5xl text-gray-300 font-semibold">
+              <p className="text-3xl sm:text-4xl md:text-5xl text-gray-300 font-semibold animate">
                 Desenvolvedor FullStack
               </p>
             </div>
@@ -70,7 +70,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
               >
                 Contato
               </button>
-              <a href="public/assetes/Gustavo - curriculo profisional .pdf"
+              <a href="public\assetes\Gustavo - curriculo profisional .docx"
               download
               className="w-full sm:w-auto bg-gradient-to-r from-gray-600 to-gray-800 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:scale-105 transition-transform duration-300 border border-gray-500"
               >

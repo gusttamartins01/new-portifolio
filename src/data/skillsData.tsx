@@ -28,7 +28,7 @@ export const skillsRow1: Skill[] = [
   },
   {
     name: 'JavaScript',
-    color: 'text-yellow-400',
+    color: 'text-yellow-500',
     icon: <SiJavascript />,
   },
   {
@@ -43,19 +43,19 @@ export const skillsRow1: Skill[] = [
   },
   {
     name: 'React',
-    color: 'text-cyan-300',
+    color: 'text-cyan-400',
     icon: <SiReact />,
-  },
-  {
-    name: 'TailwindCSS',
-    color: 'text-teal-400',
-    icon: <SiTailwindcss />,
   },
 
 ];
 
 export const skillsRow2: Skill[] = [
 
+  {
+    name: 'TailwindCSS',
+    color: 'text-teal-500',
+    icon: <SiTailwindcss />,
+  },
   {
     name: 'Figma',
     color: 'text-pink-500',

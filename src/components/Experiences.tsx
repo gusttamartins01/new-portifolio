@@ -62,7 +62,7 @@ const Experience: React.FC = () => {
       {/* Título */}
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-          Experiência
+          Experiências
         </h2>
         <p className="mt-4 text-gray-400 max-w-4xl mx-auto md:text-5X1">
           Um pouco da minha trajetória profissional.
