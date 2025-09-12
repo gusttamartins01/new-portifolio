@@ -70,7 +70,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
               >
                 Contato
               </button>
-              <a href=" public\assetes\Gustavo - curriculo profisional  (2).pdf"
+              <a href="public/assetes/Gustavo - curriculo profisional  (2).pdf"
               download
               className="w-full sm:w-auto bg-gradient-to-r from-gray-600 to-gray-800 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:scale-105 transition-transform duration-300 border border-gray-500"
               >
