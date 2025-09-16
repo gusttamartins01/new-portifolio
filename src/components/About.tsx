@@ -22,7 +22,7 @@ const About: React.FC = () => {
           <div className="order-1 lg:order-2 px-4 sm:px-6 lg:px-8 text-center sm:text-left">
             <div className="space-y-6 max-w-2xl mx-auto lg:mx-0">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                Sobre Mim
+                Perfil
               </h2>
               <div className="space-y-5 text-gray-200 text-base sm:text-lg md:text-xl leading-relaxed">
                 <p className="text-center sm:text-justify">
