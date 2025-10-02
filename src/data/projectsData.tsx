@@ -86,5 +86,23 @@ export const projects: Project[] = [
     demo:  "",
     github: ""
   },
+   {
+    id: 3,
+    title: "Projeto de automação de respostas de e-mail com Python",
+    description: "Classificando e-mails e automatizando respostas com agente de IA",
+    tech: ["Python","JavaScript","JSON", "HTML", "CSS"],
+    image:"assetes/emailsClassifer.png",
+    demo:  "https://emails-classifier.vercel.app/",
+    github: "https://github.com/gusttamartins01/emails-classifier-backend"
+  },
+   {
+    id: 3,
+    title: "Sistema Universitario",
+    description: "Página web para vizualizar atividades atrasadas e enviar mensagem automaticas pelo whatsapp notificando ás entregas pendetes e atrasos.",
+    tech: ["HTML", "CSS", "JavaScript","Node","API do Whatsapp"],
+    image: "/assetes/appAcademico.png",
+    demo:  "https://academico-app-8ohl.vercel.app/#",
+    github: "https://github.com/gusttamartins01/academico-app"
+  },
   
 ];
