@@ -11,7 +11,7 @@ const About: React.FC = () => {
           {/* Imagem responsiva */}
           <div className="flex justify-center lg:justify-end order-2 lg:order-10">
             <img
-              src="/assetes/gusms01.jpg"
+              src="/assetes/gus.siara.jpg"
               alt="Gustavo Martins"
               className="w-52 h-52 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-2xl shadow-2xl border-2 border-gray-700 transition-transform duration-300 hover:scale-105"
               loading="lazy"
