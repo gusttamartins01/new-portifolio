@@ -8,7 +8,7 @@ export const certificates: Certificate[] = [
     description: "Evento com 12 horas de duraçaõ, com bagame de Conhecimentos fundamentais e de alto nível de conceitos de Desenvolvimento Front-end, Back-end, e Full Stack. Saas, Mobile, Gamers, e Soft Skills",
     issuer: "Front-End CE",
     date: "Setembro de 2025",
-    image: "public/assetes/certificadoFrontEndDay.png", 
+    image: "/assetes/certificadoFrontEndDay.png", 
     link: "#", 
   },
   {
@@ -17,7 +17,7 @@ export const certificates: Certificate[] = [
     description: "Intensivão de JavaSCript com 4 aulas totalizando 8 horas, com aulasao vivo e projetos práticos.",
     issuer: "Hashtag Programação",
     date: "Outubro de 2025",
-    image: "public/assetes/certificadoJavaScript.png", 
+    image: "/assetes/certificadoJavaScript.png", 
     link: "#",
   },
   {
