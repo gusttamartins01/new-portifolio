@@ -8,17 +8,19 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import { useScrollSpy } from "./hooks/useScrollSpy";
 import Experience from "./components/Experiences";
+import Certificates from "./components/Certificates"; 
+
 import { Github, Linkedin, Instagram, MessageCircle } from "lucide-react";
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
-
   const activeSection = useScrollSpy([
     "inicio",
     "sobre",
     "projetos",
     "habilidades",
     "experiencia",
+    "certificados", 
     "servicos",
     "contatos",
   ]);
@@ -45,6 +47,8 @@ const App: React.FC = () => {
       <Projects />
       <Skills />
       <Experience />
+      <Certificates />
+      
       <Services />
       <Contact />
 

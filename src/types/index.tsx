@@ -21,3 +21,12 @@ export interface Service {
   title: string;
   description: string;
 }
+export interface Certificate {
+  id: number;
+  title: string;
+  description: string;
+  issuer: string; 
+  date: string; 
+  image: string; 
+  link: string; 
+}

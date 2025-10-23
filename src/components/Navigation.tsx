@@ -14,11 +14,27 @@ const Navigation: React.FC<NavigationProps> = ({
   activeSection,
   scrollToSection,
 }) => {
-  const navItems = ['inicio', 'sobre', 'projetos', 'habilidades', 'experiencia', 'servicos', 'contatos'];
+  
+  const navItems = [
+    'inicio', 
+    'sobre', 
+    'projetos', 
+    'habilidades', 
+    'experiencia', 
+    'certificados', 
+    'servicos', 
+    'contatos'
+  ];
 
   const handleNavClick = (item: string) => {
     scrollToSection(item);
     setIsMenuOpen(false);
+  };
+
+  const getNavItemText = (item: string) => {
+    if (item === 'servicos') return 'serviços';
+    if (item === 'certificados') return 'certificados'; // Retorna o texto formatado
+    return item; // Retorna o item para os outros casos (que já estão em minúsculo)
   };
 
   return (
@@ -27,7 +43,7 @@ const Navigation: React.FC<NavigationProps> = ({
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="text-xl font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent select-none">
-           Gustavo Martins | Dev
+            Gustavo Martins | Dev
           </div>
 
           {/* Menu Desktop */}
@@ -42,7 +58,7 @@ const Navigation: React.FC<NavigationProps> = ({
                     : 'text-gray-400 hover:text-white'
                 }`}
               >
-                {item === 'servicos' ? 'serviços' : item}
+                {getNavItemText(item)} 
               </button>
             ))}
           </div>
@@ -68,7 +84,7 @@ const Navigation: React.FC<NavigationProps> = ({
                 onClick={() => handleNavClick(item)}
                 className="block w-full text-left px-3 py-3 text-sm text-gray-300 hover:text-white capitalize rounded transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white"
               >
-                {item === 'servicos' ? 'serviços' : item}
+                {getNavItemText(item)}
               </button>
             ))}
           </div>
