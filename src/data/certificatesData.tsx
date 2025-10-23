@@ -26,7 +26,7 @@ export const certificates: Certificate[] = [
     description: "Maior evento de Tecnologia do Norte e Nordeste, com diversos Stands, Programações, plaetras e Hackatons",
     issuer: "SIARÁ TECH - SEBRAE",
     date: "Outubro de  2025",
-    image: "public/assetes/certificadoSiaraTech.png",
+    image: "/assetes/certificadoSiaraTech.png",
     link: "#",
   },
   {
@@ -35,7 +35,7 @@ export const certificates: Certificate[] = [
     description: "Introdução ao desenvolvimento Full Stack com front-end (HTML, CSS, JavaScript) e back-end (Node.js)",
     issuer: "DIO",
     date: "Setembro de 2025",
-    image: "public/assetes/certificadoFullStack.png",
+    image: "/assetes/certificadoFullStack.png",
     link: "#",
   },
   {
@@ -44,7 +44,7 @@ export const certificates: Certificate[] = [
     description: "Nas aulas forma desenvolvido sistemas de automação, analise de dados com PowerBI, e lógica de programação, utilizando Bibliotecs e Frameworks como Pandas, FastAPI, PyAUtoGui e Flask",
     issuer: "Simplifica Treinamentos",
     date: "Janeiro de 2025",
-    image: "public/assetes/certificadoPython.png",
+    image: "/assetes/certificadoPython.png",
     link: "#",
   },
 ];
