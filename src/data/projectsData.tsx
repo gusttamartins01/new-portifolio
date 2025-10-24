@@ -4,7 +4,7 @@ import { Project } from '../types';
 export const projects: Project[] = [
 
  {
-    id: 3,
+    id: 1,
     title: "Em desenvolvimento: App BMQ",
     description: "Sistema web mobile voltado para autoajuda, seu amigo de bolso",
     tech: ["React", "TypeScript", "Tailwind","Node.js","Postgres", "Python", "React Native", "N8N"],
@@ -13,7 +13,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/bem-me-quer-palpavel"
   },
   {
-    id: 1,
+    id: 2,
     title: "Jogo interativo para coletar frutas",
     description: "Jogo interativo no qual tem que coletar o máximo de frutas possíveis sem deixar cair",
     tech: ["HTML5", "CSS3", "JavaScript",],
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/fruit-catcher-game.git" // Substitua por um link real
   },
   {
-    id: 2,
+    id: 3,
     title: "Sistema web para uma academia e cadastro de clientes",
     description: "Sistema para realizar cadastros de clientes, feedbacks de melhorias e implementações, e apresentação de uma academia voltado a resultados com visão computacional",
     tech: ["React", "TypeScript", "Tailwind","Node.js","SupaBase"],
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/Revo-Projeto.git"
   },
   {
-    id: 3,
+    id: 4,
     title: "Chatbot institucional",
     description: "Chatboty com IA para auxiliar nas demndas e suporte ao atendimento dos alunos da instutuição de ensino",
     tech: ["HTML5", "CSS3","JavaScript","API","Node.js", "Inteligência Artificial"],
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/chatbot-teste.git"
   },
   {
-    id: 3,
+    id: 5,
     title: "Tela de autenticação de rede WI-FI",
     description: "Tela para autenticar wi-fi de launos, professores e funcionários da Instuição",
     tech: ["HTML5", "CSS3", "Autenticação com banco de dados"],
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/Tela-de-autenticao"
   },
     {
-    id: 3,
+    id: 6,
     title:"Sistema de E-Commerce",
     description:"Sistema de e-commerce para uma loja de vendas de joias e artigos de luxo e grife",
     tech:["TypeScript","React-vite","Tailwind","Node.Js","PostgresSQL"],
@@ -59,7 +59,7 @@ export const projects: Project[] = [
 
   },
   {
-    id: 3,
+    id: 7,
     title: "Dashboard de Rotina",
     description: "Tela para autenticar wi-fi de launos, professores e funcionários da Instuição",
     tech: ["Python","HTML5", "CSS3", "Autenticação com banco de dados Mockado "],
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/dashboard-rotinas-python"
   },
   {
-    id: 3,
+    id: 8,
     title: "projeto de automação com n8n",
     description: "Workflows de automação com agente de ia para responder e-mails",
     tech: ["n8n","JavaScript","PostgresSQL", "Autenticação com banco de dados"],
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     github: ""
   },
    {
-    id: 3,
+    id: 9,
     title: "Projeto de automação de respostas de e-mail com Python",
     description: "Classificando e-mails e automatizando respostas com agente de IA",
     tech: ["Python","JavaScript","JSON", "HTML", "CSS"],
@@ -86,13 +86,22 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/emails-classifier-backend"
   },
    {
-    id: 3,
+    id: 10,
     title: "Sistema Universitario",
     description: "Página web para vizualizar atividades atrasadas e enviar mensagem automaticas pelo whatsapp notificando ás entregas pendetes e atrasos.",
     tech: ["HTML", "CSS", "JavaScript","Node","API do Whatsapp"],
     image: "/assetes/appAcademico.png",
     demo:  "https://academico-app-8ohl.vercel.app/#",
     github: "https://github.com/gusttamartins01/academico-app"
+  },
+  {
+    id: 11,
+    title: "Project Players and Transactions",
+    description: "Sistema para mensurar número de jogadores e transições e resilatdos do ticked médio de valores.",
+    tech: ["TypeScrip, Node, React, Python, Docker, MySQL, API "],
+    image: "/assetes/playerCore.png",
+    demo:  "https://playercore-frontend.vercel.app/",
+    github: "https://github.com/gusttamartins01/playercore-backend"
   },
   
 ];
