@@ -39,16 +39,6 @@ export const projects: Project[] = [
     demo:  "https://chatbot-teste-pearl.vercel.app/",
     github: "https://github.com/gusttamartins01/chatbot-teste.git"
   },
-
-   {
-    id: 3,
-    title: "Landing Page Software House",
-    description: "Landing Page da Software House Robo Dev",
-    tech: ["React", "TypeScript", "Tailwind","Node.js","Postgres"],
-    image: "/assetes/robodev.jpg",
-    demo:  "https://portf-lio-robodev.vercel.app/",
-    github: "https://github.com/gusttamartins01/portf-lio-robodev"
-  },
   {
     id: 3,
     title: "Tela de autenticação de rede WI-FI",
