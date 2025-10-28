@@ -98,10 +98,19 @@ export const projects: Project[] = [
     id: 11,
     title: "Project Players and Transactions",
     description: "Sistema para mensurar número de jogadores e transições e resilatdos do ticked médio de valores.",
-    tech: ["TypeScrip, Node, React, Python, Docker, MySQL, API "],
+    tech: ["TypeScrip", "Node", "React", "Python", "Docker", "MySQL", "API"],
     image: "/assetes/playerCore.png",
     demo:  "https://playercore-frontend.vercel.app/",
     github: "https://github.com/gusttamartins01/playercore-backend"
+  },
+   {
+    id: 11,
+    title: "Project UniConnect",
+    description: "Sistema para comunidade academica de alunso e profssores universitarios",
+    tech: ["TypeScrip", "Node", "React-Vite", "Tailwind"],
+    image: "/assetes/uniconnect.png",
+    demo:  "https://learn-connect-hub-93.vercel.app/",
+    github: "https://github.com/gusttamartins01/connect-hub"
   },
   
 ];
