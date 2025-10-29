@@ -11,8 +11,6 @@ import {
   SiGithub,
   SiN8N,
   SiFigma,
-  SiBootstrap,
-  SiPython,
 
 } from 'react-icons/si';
 import { Skill } from '../types';
