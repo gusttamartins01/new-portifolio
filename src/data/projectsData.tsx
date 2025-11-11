@@ -108,7 +108,7 @@ export const projects: Project[] = [
     title: "Project UniConnect",
     description: "Sistema para comunidade academica de alunso e profssores universitarios",
     tech: ["TypeScrip", "Node", "React-Vite", "Tailwind"],
-    image: "/assetes/uniconnect.png",
+    image: "/assetes/uniConnect.png",
     demo:  "https://learn-connect-hub-93.vercel.app/",
     github: "https://github.com/gusttamartins01/connect-hub"
   },
