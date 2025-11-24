@@ -32,15 +32,6 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Chatbot institucional",
-    description: "Chatboty com IA para auxiliar nas demndas e suporte ao atendimento dos alunos da instutuição de ensino",
-    tech: ["HTML5", "CSS3","JavaScript","API","Node.js", "Inteligência Artificial"],
-    image: "/assetes/Chatbot.jpg",
-    demo:  "https://chatbot-teste-pearl.vercel.app/",
-    github: "https://github.com/gusttamartins01/chatbot-teste.git"
-  },
-  {
-    id: 5,
     title: "Tela de autenticação de rede WI-FI",
     description: "Tela para autenticar wi-fi de launos, professores e funcionários da Instuição",
     tech: ["HTML5", "CSS3", "Autenticação com banco de dados"],
@@ -49,7 +40,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/Tela-de-autenticao"
   },
     {
-    id: 6,
+    id: 5,
     title:"Sistema de E-Commerce",
     description:"Sistema de e-commerce para uma loja de vendas de joias e artigos de luxo e grife",
     tech:["TypeScript","React-vite","Tailwind","Node.Js","PostgresSQL"],
@@ -59,7 +50,7 @@ export const projects: Project[] = [
 
   },
   {
-    id: 7,
+    id: 6,
     title: "Dashboard de Rotina",
     description: "Tela para autenticar wi-fi de launos, professores e funcionários da Instuição",
     tech: ["Python","HTML5", "CSS3", "Autenticação com banco de dados Mockado "],
@@ -68,7 +59,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/dashboard-rotinas-python"
   },
   {
-    id: 8,
+    id: 7,
     title: "projeto de automação com n8n",
     description: "Workflows de automação com agente de ia para responder e-mails",
     tech: ["n8n","JavaScript","PostgresSQL", "Autenticação com banco de dados"],
@@ -77,7 +68,7 @@ export const projects: Project[] = [
     github: ""
   },
    {
-    id: 9,
+    id: 8,
     title: "Projeto de automação de respostas de e-mail com Python",
     description: "Classificando e-mails e automatizando respostas com agente de IA",
     tech: ["Python","JavaScript","JSON", "HTML", "CSS"],
@@ -86,7 +77,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/emails-classifier-backend"
   },
    {
-    id: 10,
+    id: 9,
     title: "Sistema Universitario",
     description: "Página web para vizualizar atividades atrasadas e enviar mensagem automaticas pelo whatsapp notificando ás entregas pendetes e atrasos.",
     tech: ["HTML", "CSS", "JavaScript","Node","API do Whatsapp"],
@@ -95,7 +86,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/academico-app"
   },
   {
-    id: 11,
+    id: 10,
     title: "Project Players and Transactions",
     description: "Sistema para mensurar número de jogadores e transições e resilatdos do ticked médio de valores.",
     tech: ["TypeScrip", "Node", "React", "Python", "Docker", "MySQL", "API"],

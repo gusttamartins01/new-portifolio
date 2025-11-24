@@ -48,12 +48,21 @@ export const certificates: Certificate[] = [
     link: "#",
   },
   {
-    id: 5,
+    id: 6,
     title: "Entendendo comunicação de Client X Server",
     description: "Nesse curso foi ensinado os conceitos de comunicação de Cliente e Servidor com JavaScript e Nodejs, apredendo os fundamentos da web",
     issuer: "DIO",
     date: "Novembro de 2025",
     image: "/assetes/certificadoClientServer.png",
+    link: "#",
+  },
+  {
+    id: 7,
+    title: "Versionamento de código com Git e GitHub",
+    description: "Durante este curso foram abordados os conceitos essenciais de versionamento de código com Git e GitHub, incluindo a criação e gerenciamento de repositórios, uso dos principais comandos, controle de versões, criação de branches, envio e atualização de código no GitHub, além de boas práticas para organizar o desenvolvimento e colaborar de forma eficiente em projetos.",
+    issuer: "DIO",
+    date: "Novembro de 2025",
+    image: "/assetes/certificadogit&github.png",
     link: "#",
   },
 ];
