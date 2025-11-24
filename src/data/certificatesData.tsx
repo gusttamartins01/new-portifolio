@@ -47,4 +47,13 @@ export const certificates: Certificate[] = [
     image: "/assetes/certificadoPython.png",
     link: "#",
   },
+  {
+    id: 5,
+    title: "Entendendo comunicação de Client X Server",
+    description: "Nesse curso foi ensinado os conceitos de comunicação de Cliente e Servidor com JavaScript e Nodejs, apredendo os fundamentos da web",
+    issuer: "DIO",
+    date: "Novembro de 2025",
+    image: "/assetes/certificadoClientServer.png",
+    link: "#",
+  },
 ];
