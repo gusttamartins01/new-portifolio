@@ -33,7 +33,7 @@ export const skillsRow1: Skill[] = [
   },
   {
     name: 'TypeScript',
-    color: 'text-blue-500',
+    color: 'text-blue-700',
     icon: <SiTypescript />,
   },
   {
@@ -43,7 +43,7 @@ export const skillsRow1: Skill[] = [
   },
   {
     name: 'React',
-    color: 'text-cyan-400',
+    color: 'text-cyan-500',
     icon: <SiReact />,
   },
 
@@ -53,12 +53,12 @@ export const skillsRow2: Skill[] = [
 
   {
     name: 'TailwindCSS',
-    color: 'text-teal-500',
+    color: 'text-teal-400',
     icon: <SiTailwindcss />,
   },
   {
     name: 'Figma',
-    color: 'text-pink-500',
+    color: 'text-pink-600',
     icon: <SiFigma/>,
   },
   {
@@ -73,7 +73,7 @@ export const skillsRow2: Skill[] = [
   },
   {
     name: 'Git',
-    color: 'text-orange-600',
+    color: 'text-orange-700',
     icon: <SiGit />,
   },
   {
