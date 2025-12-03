@@ -1,5 +1,5 @@
-import React from 'react';
-import { Menu, X } from 'lucide-react';
+import React from "react";
+import { Menu, X } from "lucide-react";
 
 interface NavigationProps {
   isMenuOpen: boolean;
@@ -14,16 +14,15 @@ const Navigation: React.FC<NavigationProps> = ({
   activeSection,
   scrollToSection,
 }) => {
-  
   const navItems = [
-    'inicio', 
-    'sobre', 
-    'projetos', 
-    'habilidades', 
-    'experiencia', 
-    'certificados', 
-    'servicos', 
-    'contatos'
+    "inicio",
+    "sobre",
+    "projetos",
+    "habilidades",
+    "experiencia",
+    "certificados",
+    "servicos",
+    "contatos",
   ];
 
   const handleNavClick = (item: string) => {
@@ -32,8 +31,8 @@ const Navigation: React.FC<NavigationProps> = ({
   };
 
   const getNavItemText = (item: string) => {
-    if (item === 'servicos') return 'serviços';
-    if (item === 'certificados') return 'certificados'; // Retorna o texto formatado
+    if (item === "servicos") return "serviços";
+    if (item === "certificados") return "certificados"; // Retorna o texto formatado
     return item; // Retorna o item para os outros casos (que já estão em minúsculo)
   };
 
@@ -42,9 +41,12 @@ const Navigation: React.FC<NavigationProps> = ({
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-300">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="text-xl font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent select-none">
+          <button
+            onClick={() => scrollToSection("inicio")}
+            className="text-xl font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent select-none"
+          >
             Gustavo Martins | Dev
-          </div>
+          </button>
 
           {/* Menu Desktop */}
           <div className="hidden md:flex space-x-6">
@@ -54,11 +56,11 @@ const Navigation: React.FC<NavigationProps> = ({
                 onClick={() => handleNavClick(item)}
                 className={`capitalize text-sm transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white rounded ${
                   activeSection === item
-                    ? 'text-white font-semibold'
-                    : 'text-gray-400 hover:text-white'
+                    ? "text-white font-semibold"
+                    : "text-gray-400 hover:text-white"
                 }`}
               >
-                {getNavItemText(item)} 
+                {getNavItemText(item)}
               </button>
             ))}
           </div>
@@ -67,7 +69,7 @@ const Navigation: React.FC<NavigationProps> = ({
           <button
             className="md:hidden text-white p-2 rounded focus:outline-none focus:ring-2 focus:ring-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label={isMenuOpen ? 'Fechar menu' : 'Abrir menu'}
+            aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
