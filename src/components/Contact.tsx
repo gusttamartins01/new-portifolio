@@ -61,6 +61,7 @@ const Contact: React.FC = () => {
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gray-400 focus:border-transparent text-white placeholder-gray-400"
                   placeholder="Seu nome"
+                  required
                 />
               </div>
               <div>
@@ -73,6 +74,7 @@ const Contact: React.FC = () => {
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gray-400 focus:border-transparent text-white placeholder-gray-400"
                   placeholder="seu@email.com"
+                  required
                 />
               </div>
               <div>
@@ -85,6 +87,7 @@ const Contact: React.FC = () => {
                   rows={5}
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gray-400 focus:border-transparent text-white placeholder-gray-400 resize-none"
                   placeholder="Sua mensagem..."
+                  required
                 />
               </div>
               <button
