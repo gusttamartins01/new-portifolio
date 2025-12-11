@@ -43,7 +43,7 @@ const Navigation: React.FC<NavigationProps> = ({
           {/* Logo */}
           <button
             onClick={() => scrollToSection("inicio")}
-            className="text-xl font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent select-none"
+            className="text-xl font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent select-none animate-pulse"
           >
             Gustavo Martins | Dev
           </button>

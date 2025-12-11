@@ -36,17 +36,16 @@ export const skillsRow1: Skill[] = [
     color: 'text-blue-700',
     icon: <SiTypescript />,
   },
+   {
+    name: 'React',
+    color: 'text-cyan-500',
+    icon: <SiReact />,
+  },
   {
     name: 'Node.js',
     color: 'text-green-500',
     icon: <SiNodedotjs />,
   },
-  {
-    name: 'React',
-    color: 'text-cyan-500',
-    icon: <SiReact />,
-  },
-
 ];
 
 export const skillsRow2: Skill[] = [

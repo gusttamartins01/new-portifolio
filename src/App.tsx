@@ -53,7 +53,7 @@ const App: React.FC = () => {
       <Contact />
 
       <footer className="bg-black/90 text-grey-400 py-6 text-center border-t border-gray-700/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-pulse">
           <p>
             &copy; {new Date().getFullYear()} Gustavo Martins. Todos os direitos
             reservados.

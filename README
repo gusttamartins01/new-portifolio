@@ -1,0 +1,157 @@
+# Portfolio Gustavo Martins
+
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue.svg)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.2-646CFF.svg)](https://vitejs.dev/)
+
+Um portfólio pessoal moderno e responsivo desenvolvido com React, TypeScript e TailwindCSS, apresentando meus projetos, habilidades, experiências e certificados como desenvolvedor FullStack.
+
+## 📋 Descrição
+
+Este é meu portfólio pessoal, uma aplicação web single-page que demonstra minhas habilidades em desenvolvimento frontend e backend. O site inclui seções interativas para apresentar meus projetos, habilidades técnicas, experiências profissionais, certificados e serviços oferecidos.
+
+## ✨ Funcionalidades
+
+- **Design Responsivo**: Interface adaptável para desktop, tablet e mobile
+- **Navegação Suave**: Scroll spy com navegação automática entre seções
+- **Animações Modernas**: Animações com Framer Motion para melhor experiência do usuário
+- **Carrossel de Projetos**: Visualização interativa dos projetos com Swiper
+- **Formulário de Contato**: Integração com EmailJS para envio de mensagens
+- **Multilinguagem**: Suporte para português e inglês (em desenvolvimento)
+- **Tema Dark**: Design moderno com gradientes e efeitos visuais
+- **SEO Otimizado**: Meta tags e estrutura semântica para melhor indexação
+
+## 🛠️ Tecnologias Utilizadas
+
+### Frontend
+- **React 18.3.1** - Biblioteca JavaScript para interfaces de usuário
+- **TypeScript 5.5.3** - Superset tipado do JavaScript
+- **Vite 5.4.2** - Build tool e dev server ultrarrápido
+- **TailwindCSS 3.4.1** - Framework CSS utilitário
+- **Framer Motion 12.23.12** - Biblioteca de animações para React
+- **Lucide React 0.344.0** - Ícones modernos e consistentes
+- **React Icons 5.5.0** - Biblioteca de ícones populares
+- **Swiper 12.0.2** - Carrossel moderno e touch-friendly
+
+### Backend/Utilitários
+- **EmailJS 4.4.1** - Serviço de envio de emails via JavaScript
+- **Devicon 2.17.0** - Ícones para tecnologias de desenvolvimento
+
+### Ferramentas de Desenvolvimento
+- **ESLint 9.9.1** - Linting para JavaScript/TypeScript
+- **PostCSS 8.4.35** - Processador CSS
+- **Autoprefixer 10.4.18** - Adição automática de prefixos CSS
+
+## 📖 Uso
+
+### Scripts Disponíveis
+
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria uma build de produção
+- `npm run preview` - Visualiza a build de produção localmente
+- `npm run lint` - Executa o linter para verificar código
+
+### Estrutura do Projeto
+
+```
+new-portifolio/
+├── public/
+│   ├── assetes/          # Imagens e arquivos estáticos
+│   └── favicon.png
+├── src/
+│   ├── components/       # Componentes React
+│   │   ├── About.tsx
+│   │   ├── Certificates.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Experiences.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navigation.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Services.tsx
+│   │   └── Skills.tsx
+│   ├── context/          # Contextos React
+│   │   └── LanguageContext.tsx
+│   ├── data/             # Dados estáticos
+│   │   ├── certificatesData.tsx
+│   │   ├── projectsData.tsx
+│   │   ├── servicesData.tsx
+│   │   └── skillsData.tsx
+│   ├── hooks/            # Hooks customizados
+│   │   └── useScrollSpy.ts
+│   ├── translations/     # Arquivos de tradução
+│   │   └── translations.tsx
+│   ├── types/            # Definições TypeScript
+│   │   └── index.tsx
+│   ├── App.tsx           # Componente principal
+│   ├── index.css         # Estilos globais
+│   └── main.tsx          # Ponto de entrada
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
+
+## 🎯 Seções do Portfólio
+
+### 🏠 Hero
+- Apresentação pessoal com foto e descrição
+- Botões de ação para navegação rápida
+- Download do currículo
+
+### 👤 Sobre
+- Perfil profissional detalhado
+- Histórico e motivações
+
+### 💼 Projetos
+- Galeria de 12+ projetos desenvolvidos
+- Tecnologias utilizadas em cada projeto
+- Links para demo e repositório GitHub
+
+### 🛠️ Habilidades
+- Tecnologias frontend e backend
+- Ferramentas de desenvolvimento
+- Ícones coloridos para identificação visual
+
+### 💼 Experiência
+- Histórico profissional
+- Cargos e responsabilidades
+
+### 🏆 Certificados
+- Certificações obtidas
+- Cursos e especializações
+
+### 🔧 Serviços
+- Serviços oferecidos como freelancer
+- Desenvolvimento frontend/backend
+- Design responsivo e UI/UX
+
+### 📞 Contato
+- Formulário de contato com EmailJS
+- Links para redes sociais
+- Informações de contato
+
+## 📄 Licença
+
+Este projeto está sob a licença ISC. Veja o arquivo `LICENSE` para mais detalhes.
+
+## 📞 Contato
+
+**Gustavo Martins**
+
+- **Email:** [luizgustams@gmail.com]
+- **LinkedIn:** [https://linkedin.com/in/gustavo-martins-197b70298](https://linkedin.com/in/gustavo-martins-197b70298)
+- **GitHub:** [https://github.com/gusttamartins01](https://github.com/gusttamartins01)
+- **Instagram:** [@gustta_gus](https://instagram.com/gustta_gus)
+- **WhatsApp:** [+55 85 9985-68223](https://wa.me/5585998568223?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os.)
+
+---
+
+⭐ **Star este repositório se você gostou do projeto!**
