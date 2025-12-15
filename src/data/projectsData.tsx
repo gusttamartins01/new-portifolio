@@ -94,6 +94,15 @@ export const projects: Project[] = [
   },
   {
     id: 11,
+    title: "E-commerce BootCrash",
+    description: "Site E-commerce de uma loja de tênis Street.",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    image: "/assetes/bootCrash.png",
+    demo: "https://bootcrash.vercel.app/", // Substitua por um link real
+    github: "https://github.com/gusttamartins01/bootcrash-ecommerce" // Substitua por um link real
+  },
+  {
+    id: 12,
     title: "Jogo interativo para coletar frutas",
     description: "Jogo interativo no qual tem que coletar o máximo de frutas possíveis sem deixar cair.",
     tech: ["HTML5", "CSS3", "JavaScript"],
@@ -102,7 +111,7 @@ export const projects: Project[] = [
     github: "https://github.com/gusttamartins01/fruit-catcher-game.git" // Substitua por um link real
   },
   {
-    id: 12,
+    id: 13,
     title: "Tela de autenticação de rede WI-FI",
     description: "Tela para autenticar wi-fi de alunos, rofessores e funcionários e visitantes da instuição de ensino.",
     tech: ["HTML5", "CSS3", "Autenticação com banco de dados"],
