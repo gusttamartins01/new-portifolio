@@ -11,7 +11,7 @@ export const certificates: Certificate[] = [
     image: "/assetes/certificadoFrontEndDay.png", 
     link: "#", 
   },
-  {
+  { 
     id: 2,
     title: "Desenvolvimento Web",
     description: "Intensivão de JavaSCript com 4 aulas totalizando 8 horas, com aulasao vivo e projetos práticos.",

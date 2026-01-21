@@ -119,5 +119,15 @@ export const projects: Project[] = [
     demo: "https://tela-de-autenticao.vercel.app/",
     github: "https://github.com/gusttamartins01/Tela-de-autenticao"
   },
+  {
+    id:14,
+    title: "Project de API de finanças ",
+    description: "Projeto desenvolvido com node e typescript",
+    tech: ["typescript, node, express, nest.js"],
+    image: "/assetes/autentication.png",
+    demo: "https://tela-de-auetmticamd",
+    github: ""
+
+  }
 
 ];

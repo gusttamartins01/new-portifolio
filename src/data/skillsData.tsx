@@ -10,7 +10,7 @@ import {
   SiGit,
   SiGithub,
   SiN8N,
-  SiFigma,
+  SiNextdotjs,
 
 } from 'react-icons/si';
 import { Skill } from '../types';
@@ -50,15 +50,15 @@ export const skillsRow1: Skill[] = [
 
 export const skillsRow2: Skill[] = [
 
+   {
+    name: 'Next.js',
+    color: 'text-black',
+    icon: <SiNextdotjs/>,
+  },
   {
     name: 'TailwindCSS',
     color: 'text-teal-400',
     icon: <SiTailwindcss />,
-  },
-  {
-    name: 'Figma',
-    color: 'text-pink-600',
-    icon: <SiFigma/>,
   },
   {
     name: 'N8N',
