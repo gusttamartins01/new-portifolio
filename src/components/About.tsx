@@ -26,16 +26,13 @@ const About: React.FC = () => {
               </h2>
               <div className="space-y-5 text-gray-200 text-base sm:text-lg md:text-xl leading-relaxed">
                 <p className="text-center sm:text-justify">
-                 Sou um desenvolvedor fullstack apaixonado por tecnologia e inovação. Com experiência em front-end e back-end,
-                 tenho dedicado minhas habilidades a criar soluções digitais completas que fazem a diferença.
+                  Sou desenvolvedor fullstack e estudante de Análise e Desenvolvimento de Sistemas. Tenho interesse em criar aplicações web modernas, funcionais e bem estruturadas, sempre buscando unir design, performance e boa experiência do usuário.
                 </p>
                 <p className="text-center sm:text-justify">
-                  Minha jornada começou com curiosidade sobre como as coisas funcionam na web, e hoje trabalho com as mais
-                  modernas tecnologias do mercado, sempre buscando aprender e evoluir constantemente.
+                  Atuo no desenvolvimento de interfaces e na integração com back-end, utilizando tecnologias como JavaScript, TypeScript, React e Next.js. Valorizo código limpo, organização e boas práticas no desenvolvimento de software.
                 </p>
                 <p className="text-center sm:text-justify">
-                  Acredito que a tecnologia deve ser acessível e útil para todos. Por isso, foco em criar aplicações
-                  intuitivas, acessíveis, performáticas e que realmente resolvem problemas reais das pessoas. 
+                  Estou em constante evolução, aprendendo por meio de projetos práticos e desafios reais. Acredito que a tecnologia deve ser acessível e eficiente, resolvendo problemas de forma simples e gerando valor tanto para usuários quanto para empresas
                 </p>
               </div>
             </div>
