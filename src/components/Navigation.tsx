@@ -20,7 +20,6 @@ const Navigation: React.FC<NavigationProps> = ({
     "projetos",
     "habilidades",
     "experiencia",
-    "certificados",
     "servicos",
     "contatos",
   ];
@@ -31,8 +30,7 @@ const Navigation: React.FC<NavigationProps> = ({
   };
 
   const getNavItemText = (item: string) => {
-    if (item === "servicos") return "serviços";
-    if (item === "certificados") return "certificados"; // Retorna o texto formatado
+    if (item === "servicos") return "serviços";// Retorna o texto formatado
     return item; // Retorna o item para os outros casos (que já estão em minúsculo)
   };
 

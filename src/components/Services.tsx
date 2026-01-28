@@ -4,7 +4,7 @@ import { Service } from '../types';
 
 const Services: React.FC = () => {
   return (
-    <section id="servicos" className="py-20 bg-gradient-to-r from-gray-900 to-black">
+    <section id="servicos" className="py-20 bg-gradient-to-r from-gray-800 to-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
           Serviços

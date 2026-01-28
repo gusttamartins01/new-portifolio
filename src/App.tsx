@@ -8,8 +8,6 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import { useScrollSpy } from "./hooks/useScrollSpy";
 import Experience from "./components/Experiences";
-import Certificates from "./components/Certificates"; 
-
 import { Github, Linkedin, Instagram, MessageCircle } from "lucide-react";
 
 const App: React.FC = () => {
@@ -20,7 +18,6 @@ const App: React.FC = () => {
     "projetos",
     "habilidades",
     "experiencia",
-    "certificados", 
     "servicos",
     "contatos",
   ]);
@@ -46,9 +43,7 @@ const App: React.FC = () => {
       <About />
       <Projects />
       <Skills />
-      <Experience />
-      <Certificates />
-      
+      <Experience />      
       <Services />
       <Contact />
 
