@@ -30,25 +30,22 @@ const Navigation: React.FC<NavigationProps> = ({
   };
 
   const getNavItemText = (item: string) => {
-    if (item === "servicos") return "serviços";// Retorna o texto formatado
-    return item; // Retorna o item para os outros casos (que já estão em minúsculo)
+    if (item === "servicos") return "serviços";
+    return item;
   };
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-gray-700/50">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-300">
         <div className="flex justify-between items-center h-16">
+
           {/* Logo */}
-            <button
-              onClick={() => scrollToSection("inicio")}
-              className="text-xl font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent select-none animate-pulse focus:outline-none focus:ring-0 active:outline-none"
-            >
-                Gustavo Martins | Dev
-            </button>
-
-
-
-
+          <button
+            onClick={() => scrollToSection("inicio")}
+            className="text-xl font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent select-none animate-pulse focus:outline-none focus:ring-0 active:outline-none"
+          >
+            Gustavo Martins | Dev
+          </button>
 
           {/* Menu Desktop */}
           <div className="hidden md:flex space-x-6">
@@ -56,7 +53,7 @@ const Navigation: React.FC<NavigationProps> = ({
               <button
                 key={item}
                 onClick={() => handleNavClick(item)}
-                className={`capitalize text-sm transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white rounded focus:outline-none focus:ring-0 active:outline-none ${
+                className={`capitalize text-sm transition-colors duration-300 rounded focus:outline-none focus:ring-0 active:outline-none ${
                   activeSection === item
                     ? "text-white font-semibold"
                     : "text-gray-400 hover:text-white"
@@ -69,7 +66,7 @@ const Navigation: React.FC<NavigationProps> = ({
 
           {/* Botão Mobile */}
           <button
-            className="md:hidden text-white p-2 rounded focus:outline-none focus:ring-2 focus:ring-white focus:outline-none focus:ring-0 active:outline-none"
+            className="md:hidden text-white p-2 rounded focus:outline-none focus:ring-0 active:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
           >
