@@ -56,7 +56,7 @@ const Navigation: React.FC<NavigationProps> = ({
               <button
                 key={item}
                 onClick={() => handleNavClick(item)}
-                className={`capitalize text-sm transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white rounded ${
+                className={`capitalize text-sm transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white rounded focus:outline-none focus:ring-0 active:outline-none ${
                   activeSection === item
                     ? "text-white font-semibold"
                     : "text-gray-400 hover:text-white"
@@ -69,7 +69,7 @@ const Navigation: React.FC<NavigationProps> = ({
 
           {/* Botão Mobile */}
           <button
-            className="md:hidden text-white p-2 rounded focus:outline-none focus:ring-2 focus:ring-white"
+            className="md:hidden text-white p-2 rounded focus:outline-none focus:ring-2 focus:ring-white focus:outline-none focus:ring-0 active:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
           >
@@ -86,7 +86,7 @@ const Navigation: React.FC<NavigationProps> = ({
               <button
                 key={item}
                 onClick={() => handleNavClick(item)}
-                className="block w-full text-left px-3 py-3 text-sm text-gray-300 hover:text-white capitalize rounded transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white"
+                className="block w-full text-left px-3 py-3 text-sm text-gray-300 hover:text-white capitalize rounded transition-colors duration-300 focus:outline-none focus:ring-0 active:outline-none"
               >
                 {getNavItemText(item)}
               </button>
