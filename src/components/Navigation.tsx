@@ -39,12 +39,13 @@ const Navigation: React.FC<NavigationProps> = ({
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-300">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-            <button 
-            onClick={() => scrollToSection("inicio")} className="text-xl font-bold bg-gradient-to-r  
-            bg-clip-text text-transparent select-none animate-pulse" 
-            > 
-              Gustavo Martins | Dev 
+            <button
+              onClick={() => scrollToSection("inicio")}
+              className="text-xl font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent select-none animate-pulse focus:outline-none focus:ring-0 active:outline-none"
+            >
+                Gustavo Martins | Dev
             </button>
+
 
 
 
